@@ -2,6 +2,7 @@ public class Arrays {
     public static void main(String[] args){
 //        An array is a container object that holds a fixed number of values of a single type
 //         Declaration and allocating  of an Array
+//        (+) is used to concatenate
         int[] array = new int[10];
         array[0] = 1;
         array[1] = 2;
