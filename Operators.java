@@ -18,8 +18,19 @@ public class Operators {
         System.out.println("Arithmetic Operation (Subtraction):- "+ c);
 
         c = b / a;
-        System.out.println("Arithmetic Operation (Division):- "+ c);
+        System.out.println("Arithmetic Operation (Division):- "+ c + "\n");
 
 
+//  Concatenating strings using (+)
+        String welcome = "Welcome to Java World, ";
+        String learner = "I'm Learning Java programming with object oriented";
+        System.out.println(welcome + learner + '\n');
+
+//  The unary operators require only one operand
+        int x = 2;
+        x++;
+        System.out.println("Incrementing:- " + x);
+        x--;
+        System.out.println("Decrementing:- " + x);
     }
 }
