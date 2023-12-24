@@ -17,9 +17,9 @@ public class AccessModifiers_1 {
         String student = time.name;
         System.out.println("Your name is:-" + student);
 
-//        Private access modifiers makes the variables or the data access on this file only
+//        Private access modifiers makes the variables or the data access on this file only to avoid assigning of new values on particular variables
 
-//        Protected access modifiers only gives access when the files are on the same file
+//        Protected access modifiers only gives access when the files are on the same folder
         System.out.print("Enter the number of the days of the week:- ");
         Scanner day = new Scanner(System.in);
         time.days = day.nextInt();
